@@ -1,0 +1,5 @@
+<div class="container-fluid">
+  <p>{{goal.description}}</p>
+  <p>days left {{goal.completeDate|timecount}}</p>
+</div>
+<button class="btn btn-danger" (click)='deleteGoal(true)'>Delete Goal</button>

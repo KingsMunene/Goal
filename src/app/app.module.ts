@@ -21,8 +21,9 @@ import { GoalFormComponent } from './goal-form/goal-form.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

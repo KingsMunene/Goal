@@ -23,7 +23,7 @@ export class GoalsComponent implements OnInit {
 
   completedGoal(goalComplete, index){
     if (goalComplete) {
-      let toDelete = confirm(`You are about to delete ${this.goals[index]} are you sure?`)
+      let toDelete = confirm(`You are about to delete ${this.goals[index].name} are you sure?`)
       if(toDelete){
         this.goals.splice(index, 1);
       }
